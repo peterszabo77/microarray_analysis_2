@@ -1,19 +1,14 @@
-# microarray analysis
+# microarray analysis - survival analysis
 
-microarray_a1.R: Implementation of a elementary data analysis tasks on a CEL microarray datasets
+microarray_surv_a: Implementation of a survival analysis usinf CEL microarray datasets and clinical data
 (datasets not attached)
 
-## loading CEL datafiles
+## loading CEL datafiles and clinical datasets (GSE2034)
 
-### boxplot of gene expression distributions within samples
+## survival analysis using Cox proportional hazards method
+## get p-values and hazard ratios for each probe
 
-![results](https://github.com/peterszabo77/microarray_data_analysis_1/blob/main/output/data_boxplot.png)
-
-## filtering: remove genes with low expression
-
-## linear model fit: gene expressions ~ sidepop (treatment group)
-
-### write differential expressions table into 'modelfit_output_de.txt'
+### write results, including gene symbols, hazard ratios and adjusted p-values into 'df_result.txt'
 
 ### save heatmap of most differencially expressed genes with clustering
 
@@ -25,7 +20,7 @@ microarray_a1.R: Implementation of a elementary data analysis tasks on a CEL mic
 
 ## References
 
-https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE25191
+https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE2034
 Introduction to Bioinformatics with R: A Practical Guide for Biologists by Edward R. Curry
 
 
