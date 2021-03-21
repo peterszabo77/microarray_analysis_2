@@ -5,9 +5,9 @@ microarray_surv_a: Implementation of a survival analysis using CEL microarray da
 (datasets not attached)
 
 1. loading CEL datafiles and clinical datasets (GSE2034)
-1. survival analysis using Cox proportional hazards method
-1. get p-values and hazard ratios for each probe
-1. write results, including gene symbols, hazard ratios and adjusted p-values into 'df_result.txt'
+2. survival analysis using Cox proportional hazards method
+3. get p-values and hazard ratios for each probe
+4. write results, including gene symbols, hazard ratios and adjusted p-values into 'df_result.txt'
 
 ### Software / libraries
 
