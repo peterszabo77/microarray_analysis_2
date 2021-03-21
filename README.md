@@ -1,6 +1,7 @@
 # microarray analysis - survival analysis
 
 microarray_surv_a: Implementation of a survival analysis using CEL microarray datasets and clinical data
+
 (datasets not attached)
 
 1. loading CEL datafiles and clinical datasets (GSE2034)
@@ -15,6 +16,7 @@ microarray_surv_a: Implementation of a survival analysis using CEL microarray da
 ### References
 
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE2034
+
 Introduction to Bioinformatics with R: A Practical Guide for Biologists by Edward R. Curry
 
 
