@@ -1,6 +1,6 @@
 # microarray analysis - survival analysis
 
-microarray_surv_a: Implementation of a survival analysis using CEL microarray datasets and clinical data
+microarray_surv_a.R: Implementation of a survival analysis using CEL microarray datasets and clinical data
 
 (datasets not attached)
 
