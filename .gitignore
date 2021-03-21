@@ -1,0 +1,4 @@
+# ignore all CEL and CEL.gz  files
+*.CEL.gz
+*.CEL
+clinical_data/
